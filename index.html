@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <div class="left">
+      <div class="container">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scrpted tutorials is great, but understanding how developers think is invaluable.</p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="container">
+        <a href="" class="try-it"><strong>Try it free 7 days</strong> then $20/mo. thereafter</a>
+        <form action="" onsubmit="return check(event)">
+          <input name="name" type="text" value="Johnatan">
+          <p class="name-error" style="display: none;">First Name cannot be empty</p>
+          <input name="last-name" type="text" value="Last Name">
+          <p class="last-name-error" style="display: none;">Last Name cannot be empty</p>
+          <input name="email" type="text" value="Email Adress">
+          <p class="email-error" style="display: none;">Email cannot be empty</p>
+          <input name="password" type="password" value="Password">
+          <p class="password-error" style="display: none;">Password cannot be empty</p>
+          <button>Claim your free trial</button>
+          <p>By clicking the button you are agreeing to our <span>Terms aand Services</span></p>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
